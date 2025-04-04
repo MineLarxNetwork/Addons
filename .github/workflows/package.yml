@@ -1,0 +1,52 @@
+name: Package Addons
+
+on:
+  push:
+    paths:
+      - '**/version.txt'
+      - '**/*.json'
+      - '**/*.tga'
+      - '**/*.png'
+      # 监听文件类型
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git
+        run: |
+          git config --global --add safe.directory /github/workspace
+
+      - name: Get changed directories
+        id: changed_dirs
+        run: |
+          # 获取变动的目录
+          git diff --name-only ${{ github.event.before }} HEAD | grep -oP '^[^/]+' | sort -u > changed_dirs.txt
+          cat changed_dirs.txt
+
+      - name: Install zip
+        run: sudo apt-get install -y zip
+
+      - name: Package changed directories
+        run: |
+          while IFS= read -r dir; do
+            if [ -d "$dir" ] && [ -f "$dir/version.txt" ]; then
+              version=$(cat "$dir/version.txt")
+              zip -r "${dir}_v${version}.mcaddon" "$dir"
+              echo "Packaged ${dir}_v${version}.mcaddon"
+            else
+              echo "Skipping $dir: missing version.txt or not a directory"
+            fi
+          done < changed_dirs.txt
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Addons
+          path: '*.mcaddon'
+          if-no-files-found: warn
