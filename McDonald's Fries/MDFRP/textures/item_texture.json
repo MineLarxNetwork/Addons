@@ -1,0 +1,8 @@
+{
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "mcdonald:fries": {
+            "textures": "textures/mcdonald/fries"
+        }
+    }
+}

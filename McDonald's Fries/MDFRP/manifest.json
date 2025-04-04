@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "添加了麦当劳联动薯条",
+        "name": "McDonald's fries!",
+        "uuid":"dfc959c6-b4bb-4004-8dec-2530c7c1141e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "metadata": {
+		"authors": ["MineLarxNetwork"],
+		"license": "CC BY-NC-ND",
+		"generated_with": {
+			"MineLarxPack": ["1.04"]
+		}
+	},
+    "modules": [
+        {
+        "description": "添加了麦当劳联动薯条",
+        "type": "resources",
+        "uuid": "186d47f1-635e-40c9-b97f-ed07262965d7",
+        "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid":"d62580fb-d5cf-4170-a391-024573101dfd",
+            "version":[1, 0, 0]
+        }
+    ],
+    "settings": [
+		{
+			"type": "label",
+			"text": "当前Addon版本: Ver 1.0"
+		},
+		{
+			"type": "label",
+			"text": "最低支持游戏版本: 1.21.0"
+		},
+		{
+			"type": "label",
+			"text": "Powered By §l§aMine§gLarx§r"
+		}
+	]
+}

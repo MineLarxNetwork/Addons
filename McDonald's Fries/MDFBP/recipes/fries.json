@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "mcdonald:fries"
+        },
+        "tags": ["furnace", "campfire", "soul_campfire"],
+        "input": "minecraft:potato",
+        "output": {
+            "item": "mcdonald:fries",
+            "count": 2
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mcdonald:fries",
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:icon": "mcdonald:fries",
+            "minecraft:food": {
+                "nutrition": 7, // 饱食度,MAX＝20＝5格
+                "saturation_modifier": 0.4 // 饱和度,≤1的数值
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.3, // 使用时间,以s为单位
+                "movement_modifier": 0.36 // 使用时速度,≤1的数值
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_food",
+                    "minecraft:is_meat",
+                    "minecraft:is_cooked"
+                ]
+            }
+        }
+    }
+}
