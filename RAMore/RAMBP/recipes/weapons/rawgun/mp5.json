@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:mp5"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA#",
+      "  X"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:black_iron_ingot" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:mp5",
+      "count": 1
+    }
+  }
+}

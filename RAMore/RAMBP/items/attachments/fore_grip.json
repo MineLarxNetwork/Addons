@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ra:fore_grip",
+			"menu_category": {"category": "equipment"}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": { "value": "垂直握把" },
+			"minecraft:icon": { "texture": "fore_grip" },
+			"minecraft:wearable": {
+				"slot": "slot.weapon.offhand",
+				"dispensable": false
+			}
+		}
+	}
+}

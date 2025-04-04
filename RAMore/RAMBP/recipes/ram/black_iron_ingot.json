@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ram:black_iron_ingot"
+		},
+		"tags": ["furnace", "blast_furnace"],
+		"input": "ram:raw_black_iron",
+		"output": {
+			"item": "ram:black_iron_ingot",
+			"count": 1
+		}
+	}
+}

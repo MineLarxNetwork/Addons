@@ -1,0 +1,37 @@
+{
+"format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ram:black_iron_ore",
+      "is_experimental": false,
+	"menu_category": {
+		"category": "nature",
+		"group": "itemGroup.name.ore"
+	}
+    },
+    "components": {
+      "minecraft:collision_box": true,
+	"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.65 },
+      "minecraft:destructible_by_explosion": { "explosion_resistance": 4 },
+      "minecraft:material_instances": {
+	      "*": {
+	            "texture": "black_iron_ore"
+	            }
+	},
+      "minecraft:map_color": "#a8ff0f",
+      "minecraft:on_player_destroyed": {
+        "event": "ram:xp_reward"
+      },
+      "minecraft:loot": "loot_tables/blocks/black_iron_ore.json"
+    },
+    "events": {
+      "ram:xp_reward": {
+        "run_command": {
+          "command": [
+            "structure load ore_xp_reward ~~~"
+          ]
+        }
+      }
+    }
+  }
+}

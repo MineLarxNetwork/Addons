@@ -1,0 +1,199 @@
+## Packs Lang
+pack.name=§l§gRA More §fBeta§r
+pack.description=§lWarning:§c請將該Addon置頂§r
+resourcePack.subpackResolution=設置:
+
+# RAMore
+item.ram:raw_black_iron.name=粗黑鐵
+item.ram:raw_steel.name=粗鋼
+item.ram:black_iron_ingot.name=黑鐵錠
+item.ram:steel_ingot.name=鋼錠
+item.ram:blueprint.name=藍圖
+item.ram:spring.name=彈簧
+item.ram:polymer.name=聚合物
+item.ram:plastic.name=塑膠
+item.ram:gun_components.name=槍械元件
+item.ram:gun_components_unlock.name=非法槍械元件
+item.ram:golden_upgrade_template.name=黃金皮膚升級包
+item.ram:netherite_upgrade_template.name=地獄皮膚升級包
+item.ram:polymer_upgrade_template.name=聚合物升級包
+tile.ram:black_iron_ore.name=黑鐵礦石
+tile.ram:deepslate_black_iron_ore.name=深層黑鐵礦石
+tile.ram:steel_ore.name=鋼礦石
+tile.ram:deepslate_steel_ore.name=深層鋼礦石
+
+## v2.5 ALL
+## 配件
+item.ra:night_vision_goggles.name=§a夜視儀§f
+item.ra:8x_scope.name=8x 瞄準鏡
+item.ra:8x_scope.night_vision.name=8x 瞄準鏡 [§a夜視§f]
+item.ra:acog_scope.name=ACOG 4x 瞄準鏡
+item.ra:acog_scope.night_vision.name=ACOG 4x 瞄準鏡 [§a夜視§f]
+item.ra:fore_grip.name=垂直握把
+item.ra:m203.name=M203 榴彈改件
+item.ra:red_dot_scope.name=紅點瞄準鏡
+item.ra:rpk_drum_clip.name=RPK 彈鼓改件
+
+
+## 实体
+entity.ra:zombie.name=變異殭屍
+entity.ra:grenade.projectile_landed.name=燙手山芋
+entity.ra:grenade.projectile.name=投擲物
+entity.ra:m79_grenade.projectile.name=爆炸
+entity.ra:bullet.projectile.name=子彈
+entity.ra:thunder_gun.projectile.name=壓縮空氣
+entity.ra:thunder_gun.knockback.name=壓縮空氣
+entity.villager.armor=槍械師
+entity.villager.gun=槍械師
+entity.ra:pumpkin_bomb.name=a §6南瓜炸彈§f
+entity.ra:pumpkin_bomb.projectile.name=a §6南瓜§f
+
+## 生物蛋
+item.spawn_egg.entity.ra:weapon_display.name=[橡木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_spruce.name=[雲杉木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_birch.name=[白樺木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_jungle.name=[叢林木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_acacia.name=[金合歡木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_dark_oak.name=[深色橡木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_mangrove.name=[紅樹木] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_crimson.name=[緋紅菌核] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_warped.name=[詭異菌核] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_cherry.name=[櫻花] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_bamboo.name=[竹子] 武器展示框
+
+item.spawn_egg.entity.ra:weapon_display_iron.name=[鐵] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_gold.name=[金] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_diamond.name=[鑽石] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_netherite.name=[地獄] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_emerald.name=[綠寶石] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_copper.name=[銅] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_glowstone.name=[發光] 武器展示框
+item.spawn_egg.entity.ra:weapon_display_redstone.name=[紅石] 武器展示框
+
+item.spawn_egg.entity.ra:button.name=引爆器
+item.spawn_egg.entity.ra:pumpkin_bomb.name=南瓜炸彈
+item.spawn_egg.entity.ra:target.name=假人
+item.spawn_egg.entity.ra:zombie.name=變異殭屍
+item.spawn_egg.entity.ra:zombie_head.name=變異殭屍（頭）
+item.spawn_egg.entity.ra:zombie_head.target.name=變異殭屍（頭）
+item.spawn_egg.entity.ra:zombie_limb.name=變異殭屍（肢體）
+item.spawn_egg.entity.ra:player_limb_1.name=變異殭屍（脊柱）
+
+## 物品
+item.ra:thunder_gun.name=射線槍
+item.ra:thunder_gun_clip.name=[彈匣] 射線槍
+item.ra:awm.name=AWM
+item.ra:awm_clip.name=[彈匣] AWM
+item.ra:citori_725.name=勃朗寧奇托麗 725
+item.ra:remington_870.name=雷明頓 870
+item.ra:shotgun_shell_12_gage.name=[彈藥] 12號霰彈槍彈藥
+item.ra:mini_gun.name=加特林
+item.ra:mini_gun_clip.name=[彈藥箱] 加特林
+item.ra:ak_47.name=AK47
+item.ra:ak_47_polymer.name=[聚合物改件] AK47
+item.ra:ak_47_golden.name=§6[黃金皮膚] §fAK47
+item.ra:ak_47_polymer_golden.name=§6[黃金皮膚+聚合物改件] §fAK47
+item.ra:m79.name=榴彈炮
+item.ra:m79_shell.name=§f[彈藥] §4炮彈
+item.ra:shell.smoke.name=§f[彈藥] §8煙霧炮彈
+item.ra:shell.dirty.name=§f[彈藥] §a肮髒炮彈
+item.ra:shell.fire.name=§f[彈藥] §c燃燒炮彈
+item.ra:shell.confetti.name=§f[彈藥] §d慶典炮彈
+item.ra:m4.name=M4A1
+item.ra:mp5.name=MP5
+item.ra:mp5_clip.name=[彈匣] MP5
+item.ra:mp40.name=MP40
+item.ra:mp40_clip.name=[彈匣] MP40
+item.ra:mp40_golden.name=§6[黃金皮膚] §fMP40
+item.ra:mp40_clip_golden.name=§6[彈匣] §f黃金MP40
+item.ra:mp40_netherite.name=§4[地獄皮膚] §fMP40
+item.ra:mp40_clip_netherite.name=§4[彈匣] §f地獄 MP40
+item.ra:m1_garand.name=M1式加蘭德步槍
+item.ra:m1_garand_clip.name=[彈夾] M1式加蘭德步槍
+item.ra:mosin_nagant.name=莫辛納甘
+item.ra:mosin_nagant_clip.name=[彈夾] 莫辛納甘
+item.ra:mx115.name=§fMX§b115§f
+item.ra:mx115_clip.name=[彈匣] §fMX§b115§f
+item.ra:mx115_netherite.name=§4[地獄皮膚] §fMX§c115§f
+item.ra:mx115_clip_netherite.name=§4[彈匣] §fMX§c115§f
+item.ra:p250.name=P250
+item.ra:p250_clip.name=[彈匣] P250
+item.ra:p90.name=P90
+item.ra:grenade.name=手雷
+item.ra:incendiary_grenade.name=§c燃燒彈§f
+item.ra:dirty_grenade.name=§a骯髒§f手雷
+item.ra:smoke_grenade.name=§8煙霧彈§f
+item.ra:confetti_grenade.name=§d慶典§f手雷
+item.ra:desert_eagle.name=沙漠之鷹
+item.ra:desert_eagle_golden.name=§6[黃金皮膚] §f沙漠之鷹
+item.ra:desert_eagle_netherite.name=§4[地獄皮膚] §f沙漠之鷹
+item.ra:desert_eagle_clip.name=[彈匣] 沙漠之鷹
+item.ra:m4_clip.name=[彈匣] M4A1
+item.ra:ak47_clip.name=[彈匣] AK47
+item.ra:ak47_clip_golden.name=§6[彈匣] §f黃金AK47
+item.ra:p90_clip.name=[彈匣] P90
+item.ra:m16a4.name=M16A4
+item.ra:m16a4_clip.name=[彈匣] M16A4
+item.ra:rpk.name=RPK
+item.ra:rpk_polymer.name=[聚合物改件] RPK
+item.ra:rpk_clip.name=[彈匣] RPK
+item.ra:rpk_drum_clip.name=[彈鼓改件] RPK
+
+item.ra:cal_50ae.name=[子彈] .50口徑
+item.ra:cal_50ae_5_stack.name=[子彈/x5] .50口徑
+item.ra:cal_38mm.name=[子彈] .38mm
+item.ra:cal_38mm_stack.name=[子彈/x15] .38mm
+item.ra:cal_38mm_10_stack.name=[子彈/x10] .38mm
+item.ra:cal_38mm_short_stack.name=[子彈/x5] .38mm
+item.ra:cal_556mm.name=[子彈] 5.56mm
+item.ra:cal_556mm_stack.name=[子彈/x10] 5.56mm
+item.ra:cal_556mm_short_stack.name=[子彈/x5] 5.56mm
+item.ra:cal_762mm.name=[子彈] 7.62mm
+item.ra:cal_762mm_short_stack.name=[子彈/x5] 7.62mm
+item.ra:cal_762mm_stack.name=[子彈/x10] 7.62mm
+item.ra:cal_762mm_big_stack.name=[子彈/x20] 7.62mm
+item.ra:cal_86mm.name=[子彈] 8.6mm
+item.ra:cal_86mm_stack.name=[子彈/x5] 8.6mm
+
+item.ra:bullet_powder.name=彈藥粉末
+item.ra:copper_nugget.name=銅粒
+item.ra:netherite_nugget.name=§4地獄§f粒
+item.ra:raw_radium.name=§a粗鐳§f
+
+item.ra:acog_scope.name=ACOG 4x 瞄準鏡
+item.ra:night_vision_goggles.name=§a夜視儀§f
+
+## 方块
+tile.ra:radium_block.name=§a鐳塊§f
+tile.ra:radium_block_white.name=[白] §a鐳塊§f
+tile.ra:radium_block_light_gray.name=[淺灰] §a鐳塊§f
+tile.ra:radium_block_gray.name=[灰] §a鐳塊§f
+tile.ra:radium_block_black.name=[黑] §a鐳塊§f
+tile.ra:radium_block_brown.name=[棕] §a鐳塊§f
+tile.ra:radium_block_red.name=[紅] §a鐳塊§f
+tile.ra:radium_block_orange.name=[橘子] §a鐳塊§f
+tile.ra:radium_block_yellow.name=[黃] §a鐳塊§f
+tile.ra:radium_block_green.name=[綠] §a鐳塊§f
+tile.ra:radium_block_cyan.name=[青] §a鐳塊§f
+tile.ra:radium_block_light_blue.name=[淡藍] §a鐳塊§f
+tile.ra:radium_block_blue.name=[藍] §a鐳塊§f
+tile.ra:radium_block_purple.name=[紫色] §a鐳塊§f
+tile.ra:radium_block_magenta.name=[品紅] §a鐳塊§f
+tile.ra:radium_block_pink.name=[粉] §a鐳塊§f
+
+tile.ra:stand.name=腳架
+tile.ra:stand_1.name=腳架
+tile.ra:planks.name=木地板
+tile.ra:grass_dry.name=乾草
+tile.ra:grass_dead.name=枯草
+tile.ra:support_beam.name=支撐梁
+tile.ra:support_beam_1.name=支撐梁
+tile.ra:roof_shingles.name=瓦片
+tile.ra:roof_shingles_corner.name=瓦片角
+tile.ra:roof_tip.name=風向標
+tile.ra:cobble.name=鵝卵石
+tile.ra:cobble_slab.name=鵝卵石石板
+tile.ra:cobble_mossy.name=苔蘚鵝卵石
+tile.ra:cobble_mossy_slab.name=苔蘚鵝卵石石板
+
+## Old ALL

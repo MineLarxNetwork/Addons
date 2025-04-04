@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ra:gold_mp40" },
+      "tags": [ "crafting_table" ],
+       "priority": -1,
+    "ingredients": [
+	    "ra:mp40",
+	    "minecraft:gold_ingot",
+	    "ram:golden_upgrade_template"
+	],
+    "unlock": [
+        { "item": "ra:mp40" },
+        { "item": "ram:golden_upgrade_template" }
+    ],
+    "result": { "item": "ra:mp40_golden" }
+    }
+}

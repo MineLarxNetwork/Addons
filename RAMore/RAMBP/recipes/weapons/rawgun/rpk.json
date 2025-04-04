@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:rpk"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBC",
+      "XA#"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:black_iron_ingot" },
+      "B": { "item": "ram:steel_ingot" },
+      "C": { "item": "ram:spring" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:spring" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:rpk",
+      "count": 1
+    }
+  }
+}

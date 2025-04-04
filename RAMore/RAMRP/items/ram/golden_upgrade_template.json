@@ -1,0 +1,11 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "ram:golden_upgrade_template"
+      },
+      "components": {
+        "minecraft:icon": "golden_upgrade_template"
+      }
+    }
+}

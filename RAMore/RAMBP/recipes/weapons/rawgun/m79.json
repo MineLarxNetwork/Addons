@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:m79"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBA",
+      "  A"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components" },
+      "A": { "item": "minecraft:planks" },
+      "B": { "item": "ram:black_iron_ingot" }
+    },
+    "unlock": [
+      { "item": "ram:steel_ingot" }
+    ],
+    "result": {
+      "item": "ra:m79",
+      "count": 1
+    }
+  }
+}

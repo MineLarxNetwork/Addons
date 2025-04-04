@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ram:polymer_upgrade_template",
+			"category": "items",
+			"group": "itemGroup.name.template",
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": { "texture": "polymer_update_template" }
+		}
+	}
+}

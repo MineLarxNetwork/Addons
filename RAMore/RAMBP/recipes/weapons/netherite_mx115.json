@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ra:netherite_mx115" },
+      "tags": [ "crafting_table" ],
+      "priority": -1,
+    "ingredients": [
+	    "ra:mx115",
+	    "minecraft:nether_brick",
+	    "ram:netherite_upgrade_template"
+	],
+    "unlock": [
+        { "item": "ra:mx115" },
+        { "item": "ram:netherite_upgrade_template" }
+    ],
+    "result": { "item": "ra:mx115_netherite" }
+    }
+}

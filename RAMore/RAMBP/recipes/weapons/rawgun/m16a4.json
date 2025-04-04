@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:m16a4"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AC#",
+      "  B"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:black_iron_ingot" },
+      "B": { "item": "ram:steel_ingot" },
+      "C": { "item": "ram:spring" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:spring" }
+    ],
+    "result": {
+      "item": "ra:m16a4",
+      "count": 1
+    }
+  }
+}

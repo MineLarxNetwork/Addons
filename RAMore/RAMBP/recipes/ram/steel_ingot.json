@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ram:steel_ingot"
+		},
+		"tags": ["furnace", "blast_furnace"],
+		"input": "ram:raw_steel",
+		"output": {
+			"item": "ram:steel_ingot",
+			"count": 1
+		}
+	}
+}

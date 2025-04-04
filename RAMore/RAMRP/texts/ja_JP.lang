@@ -1,0 +1,196 @@
+## Packs Lang
+pack.name=§l§gRA More §fBeta§r
+pack.description=§lWarning:§cアドオンを一番上に配置してください§r
+resourcePack.subpackResolution=セットアップ:
+
+## RAMore
+item.ram:raw_black_iron.name=粗い黒い鉄
+ item.ram:raw_steel.name=生鋼
+ item.ram:black_iron_ingot.name=黒鉄インゴット
+ item.ram:steel_ingot.name=スチールインゴット
+ item.ram:blueprint.name=ブループリント
+ item.ram:spring.name=スプリング
+ item.ram:polymer.name=ポリマー
+ item.ram:プラスチック.name=プラスチック
+ item.ram:gun_components.name=銃のコンポーネント
+ item.ram:gun_components_unlock.name=違法な銃のコンポーネント
+ item.ram:golden_upgrade_template.name=ゴールド スキン アップグレード パッケージ
+ item.ram:netherite_upgrade_template.name=ネザライト スキン アップグレード パッケージ
+ item.ram:polymer_upgrade_template.name=ポリマーアップグレードパッケージ
+ tile.ram:black_iron_ore.name=黒鉄鉱石
+ tile.ram:deepslate_black_iron_ore.name=ディープスレート黒鉄鉱石
+ tile.ram:steel_ore.name=鋼鉄鉱石
+ tile.ram:deepslate_steel_ore.name=ディープスレート鋼鉱石
+
+## v2.5 ALL
+## 配件
+item.ra:night_vision_goggles.name=§a ナイトビジョンゴーグル§f
+item.ra:8x_scope.name=8倍スコープ
+item.ra:8x_scope.night_vision.name=8倍スコープ [§aナイトビジョン§f］
+item.ra:acog_scope.name=ACOG 4倍スコープ
+item.ra:acog_scope.night_vision.name=ACOG 4倍スコープ [§aナイトビジョン§f]
+item.ra:fore_grip.name=縦型グリップ
+item.ra:m203.name=M203 デュラステールアダプター
+item.ra:red_dot_scope.name=レッドドットスコープ
+item.ra:rpk_drum_clip.name=RPKドラムモッド
+
+
+## 实体
+entity.ra:zombie.name=突然変異したゾンビ
+entity.ra:grenade.projectile_landed.name=ホットポテト
+entity.ra:grenade.projectile.name=発射物
+entity.ra:m79_grenade.projectile.name=爆発
+entity.ra:bullet.projectile.name=弾丸
+entity.ra:thunder_gun.projectile.name=圧縮空気
+entity.ra:thunder_gun.knockback.name=圧縮空気
+entity.villager.armor=ガンナー
+entity.villager.gun=ガンナー
+entity.ra:pumpkin_bomb.name=a §6パンプキンボム§f
+entity.ra:pumpkin_bomb.projectile.name=a §6pumpkin§f
+
+## 生物蛋
+item.spawn_egg.entity.ra:weapon_display.name=[オーク] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_spruce.name=[スプルース] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_birch.name=[バーチ] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_jungle.name=[ジャングルウッド] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_acacia.name=[アカシアの木] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_dark_oak.name=[ダークオーク] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_mangrove.name=[レッドツリー] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_crimson.name=[真紅の菌核] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_warped.name=[奇妙な菌核] 武器表示フレーム
+item.spawn_egg.entity.ra:weapon_display_cherry.name=[桜] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_bamboo.name=[竹] 武器表示枠
+
+item.spawn_egg.entity.ra:weapon_display_iron.name=[アイアン] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_gold.name=[ゴールド] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_diamond.name=[ダイヤモンド] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_netherite.name=[地獄] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_emerald.name=[エメラルド] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_copper.name=[ブロンズ] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_glowstone.name=[光る] 武器表示枠
+item.spawn_egg.entity.ra:weapon_display_redstone.name=[レッドストーン] 武器表示枠
+
+item.spawn_egg.entity.ra:button.name=起爆装置
+item.spawn_egg.entity.ra:pumpkin_bomb.name=かぼちゃ爆弾
+item.spawn_egg.entity.ra:target.name=ダミー
+item.spawn_egg.entity.ra:zombie.name=ミュータントゾンビ
+item.spawn_egg.entity.ra:zombie_head.name=ミュータントゾンビ（頭部）
+item.spawn_egg.entity.ra:zombie_head.target.name=ミュータントゾンビ（頭部）
+item.spawn_egg.entity.ra:zombie_limb.name=Mutant Zombie (手足)
+item.spawn_egg.entity.ra:player_limb_1.name=ミュータントゾンビ（背骨）
+
+## 物品
+item.ra:thunder_gun.name=光線銃
+item.ra:thunder_gun_clip.name=[マガジン]光線銃
+item.ra:awm.name=AWM
+item.ra:awm_clip.name=[マガジン] AWM
+item.ra:citori_725.name=ブローニング・シトーリ725
+item.ra:remington_870.name=レミントン870
+item.ra:shotgun_shell_12_gage.name=[弾薬] ショットガン弾12番
+item.ra:mini-gun.name=ガトリング
+item.ra:mini-gun_clip.name=[弾薬] ガトリング
+アイテム.ra:ak_47.name=AK47
+item.ra:ak_47_polymer.name=[ポリマー加工] AK47
+item.ra:ak_47_golden.name=§6[ゴールドスキン]§fAK47
+item.ra:ak_47_polymer_golden.name=§6[ゴールドスキン＋ポリマー改造]§fAK47
+item.ra:m79.name=ホウィッツァー
+item.ra:m79_shell.name=§f [弾薬] §4シェル
+item.ra:shell.smoke.name=§f[弾薬] §8 スモークシェル
+item.ra:shell.dirty.name=§f[弾薬] §汚れた薬莢
+item.ra:shell.fire.name=§f[弾薬] §c燃焼薬莢
+item.ra:shell.confetti.name=§f[弾薬] §d祝砲弾
+item.ra:m4.name=M4A1
+item.ra:mp5.name=MP5
+item.ra:mp5_clip.name=[マガジン] MP5
+item.ra:mp40.name=MP40
+item.ra:mp40_clip.name=[マガジン] MP40
+item.ra:mp40_golden.name=§6 [ゴールドスキン] §fMP40
+item.ra:mp40_clip_golden.name=§6[マガジン] ゴールド MP40
+アイテム.ra:mp40_ネザーライト.name=§4[インフェルノスキン] §fMP40
+アイテム.ra:mp40_clip_netherite.name=§4[マガジン] §f ヘルMP40
+item.ra:m1_garand.name=M1 スタイルガランドライフル
+item.ra:m1_garand_clip.name=[弾薬箱] M1ガランドライフル
+item.ra:mosin_nagant.name=モシン・ナガント
+item.ra:mosin_nagant_clip.name=[クリップ] モーシン・ナガント
+item.ra:mx115.name=§fMX§b115§f
+item.ra:mx115_clip.name=[マガジン] §fMX§b115§f
+item.ra:mx115_netherite.name=§4[インフェルノスキン] §fMX§c115§f
+item.ra:mx115_clip_netherite.name=§4[マガジン] §fMX§c115§f
+item.ra:p250.name=P250
+item.ra:p250_clip.name=[マガジン] P250
+item.ra:p90.name=P90
+item.ra:手榴弾.name=手榴弾
+item.ra:焼夷手榴弾.name=§c焼夷弾§f
+item.ra:汚い手榴弾.name=§a汚い手榴弾
+item.ra:煙手榴弾.name=§8煙爆弾§f
+item.ra:紙吹雪手榴弾.name=§d祝賀手榴弾§f
+item.ra:desert_eagle.name=デザート・イーグル
+item.ra:desert_eagle_golden.name=§6[ゴールドスキン] §f デザート・イーグル
+item.ra:desert_eagle_netherite.name=§4[インフェルノ・スキン] §f デザート・イーグル
+item.ra:desert_eagle_clip.name=[弾薬箱] デザート・イーグル
+item.ra:m4_clip.name=[マガジン] M4A1
+item.ra:ak47_clip.name=[マガジン] AK47
+item.ra:ak47_clip_golden.name=§6[マガジン] ゴールドAK47
+item.ra:p90_clip.name=[マガジン] P90
+item.ra:m16a4.name=M16A4
+item.ra:m16a4_clip.name=[マガジン] M16A4
+item.ra:rpk.name=RPK
+item.ra:rpk_polymer.name=[ポリマー改質] RPK
+item.ra:rpk_clip.name=[マガジン] RPK
+item.ra:rpk_drum_clip.name=[ドラム改造] RPK
+
+item.ra:cal_50ae.name=[弾丸] .50口径
+item.ra:cal_50ae_5_stack.name=[弾丸/x5] .50口径
+item.ra:cal_38mm.name=[弾丸] .38mm
+item.ra:cal_38mm_stack.name=[弾丸/x15] .38mm
+item.ra:cal_38mm_10_stack.name=[弾丸/x10] .38mm
+item.ra:cal_38mm_short_stack.name=[弾丸/x5] .38mm
+item.ra:cal_556mm.name=[弾丸] 5.56mm
+item.ra:cal_556mm_stack.name=[弾丸/x10] 5.56mm
+item.ra:cal_556mm_short_stack.name=[弾丸/x5] 5.56mm
+item.ra:cal_762mm.name=[弾丸] 7.62mm
+item.ra:cal_762mm_short_stack.name=[弾丸/x5] 7.62mm
+item.ra:cal_762mm_stack.name=[弾丸/x10] 7.62mm
+item.ra:cal_762mm_big_stack.name=[弾丸/x20] 7.62mm
+item.ra:cal_86mm.name=[弾丸] 8.6mm
+item.ra:cal_86mm_stack.name=[弾丸/x5] 8.6mm
+
+item.ra:bullet_powder.name=弾丸粉末
+item.ra:copper_nugget.name=銅ナゲット
+item.ra:netherite_nugget.name=§4 地獄§f 穀物
+item.ra:raw_radium.name=§aラジウム原石§f
+
+## 方块
+tile.ra:radium_block.name=§アラジウムブロック§f
+tile.ra:radium_block_white.name=[ホワイト] §アラジウムブロック§f
+tile.ra:radium_block_light_gray.name=[ライトグレー] §aラジウムブロック§f
+tile.ra:radium_block_gray.name=[グレー] §アラジウムブロック§f
+tile.ra:radium_block_black.name=[黒] §アラジウムブロック§f
+tile.ra:radium_block_brown.name=[ブラウン] §アラジウムブロック§f
+tile.ra:radium_block_red.name=[赤] §アラジウムブロック§f
+tile.ra:radium_block_orange.name=[オレンジ] §aラジウム ブロック§f
+tile.ra:radium_block_ yellow.name=[黄] §アラジウムブロック§f
+tile.ra:radium_block_green.name=[グリーン] §アラジウムブロック§f
+tile.ra:radium_block_chan.name=[青] §アラジウムブロック§f
+tile.ra:radium_block_light_blue.name=[ライトブルー] §aラジウムブロック§f
+tile.ra:radium_block_blue.name=[青] §アラジウム ブロック§f
+tile.ra:radium_block_purple.name=[パープル] §アラジウムブロック§f
+tile.ra:radium_block_magenta.name=[マゼンタ] §アラジウム ブロック§f
+tile.ra:radium_block_pink.name=[ピンク] §アラジウムブロック§f
+
+tile.ra:stand.name=スタンド
+tile.ra:stand_1.name=スタンド
+tile.ra:planks.name=木製床材
+tile.ra:grass_dry.name=干し草
+tile.ra:grass_dead.name=草
+tile.ra:support_beam.name=サポートビーム
+tile.ra:support_beam_1.name=サポートビーム
+tile.ra:roof_shingles.name=タイル
+tile.ra:roof_shingles_corner.name=タイルコーナー
+tile.ra:roof_tip.name=風向計
+tile.ra:cobble.name=丸石
+tile.ra:cobble_slab.name=丸石のスラブ
+tile.ra:cobble_mossy.name=苔玉石
+tile.ra:cobble_mossy_slab.name=苔玉石スレート
+
+## Old ALL

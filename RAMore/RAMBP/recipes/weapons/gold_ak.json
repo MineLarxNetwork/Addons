@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ra:gold_ak" },
+      "tags": [ "crafting_table" ],
+       "priority": -1,
+    "ingredients": [
+	    "ra:ak_47",
+	    "minecraft:gold_ingot",
+	    "ram:golden_upgrade_template"
+	],
+    "unlock": [
+        { "item": "ra:ak_47" },
+        { "item": "ram:golden_upgrade_template" }
+    ],
+    "result": { "item": "ra:ak_47_golden" }
+    }
+}

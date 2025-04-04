@@ -1,0 +1,11 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "ram:raw_black_iron"
+      },
+      "components": {
+        "minecraft:icon": "raw_black_iron"
+      }
+    }
+}

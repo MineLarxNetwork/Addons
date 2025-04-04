@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ram:rpk_polymer" },
+      "tags": [ "crafting_table" ],
+      "priority": -1,
+    "ingredients": [
+	    "ra:mp40",
+	    "ram:polymer",
+	    "ram:polymer_upgrade_template"
+	],
+    "unlock": [
+        { "item": "ra:rpk" },
+        { "item": "ram:polymer_upgrade_template" }
+    ],
+    "result": { "item": "ra:rpk_polymer" }
+    }
+}

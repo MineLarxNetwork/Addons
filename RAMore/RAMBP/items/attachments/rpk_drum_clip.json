@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "ra:rpk_drum_clip",
+        "menu_category": {"category": "equipment"}
+      },
+      "components": {
+        "minecraft:display_name": { "value": "RPK 弹鼓改件" },
+        "minecraft:max_stack_size": 8
+      }
+    }
+  }

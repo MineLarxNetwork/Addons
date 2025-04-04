@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:ak_47"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB#",
+      "  X"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": {
+        "item": "minecraft:planks",
+        "data": 0
+      },
+      "B": { "item": "ram:steel_ingot" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:ak_47",
+      "count": 1
+    }
+  }
+}

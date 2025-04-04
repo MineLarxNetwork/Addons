@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "ra:8x_scope.night_vision",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                "",
+                                "§f[§b改件§f] §f快捷栏第八格",
+                                "§a+8 §f缩放",
+                                "§a+ 夜视",
+                                "§4-1 §f控制",
+                                "",
+                                "§f[§b适配武器§f] §fAWM, 莫辛纳甘"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

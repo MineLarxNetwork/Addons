@@ -1,0 +1,47 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ram:overworld_underground_black_iron_ore_feature",
+			"places_feature": "ram:black_iron_ore_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "overworld_generation"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 20,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "triangle",
+				"extent": [0, 16]
+			},
+			"y": {
+				"distribution": "triangle",
+				"extent": [
+					-10,
+					62
+				]
+			},
+			"z": {
+				"distribution": "triangle",
+				"extent": [0, 16]
+			}
+		}
+	}
+}

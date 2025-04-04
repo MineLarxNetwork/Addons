@@ -1,0 +1,18 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ra:gold_desert_eagle" },
+      "tags": [ "crafting_table" ],
+       "priority": -1,
+    "ingredients": [
+	    "ra:desert_eagle",
+	    "minecraft:gold_ingot",
+	    "ram:golden_upgrade_template"
+	],
+    "unlock": [
+        { "item": "ra:desert_eagle" },
+        { "item": "ram:golden_upgrade_template" }
+    ],
+    "result": { "item": "ra:desert_eagle_golden" }
+    }
+}

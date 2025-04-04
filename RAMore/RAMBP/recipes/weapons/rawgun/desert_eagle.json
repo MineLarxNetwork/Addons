@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:desert_eagle"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AA#",
+      " CB"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components" },
+      "A": { "item": "ram:steel_ingot" },
+      "B": { "item": "minecraft:leather" },
+      "C": { "item": "ram:spring" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:spring" }
+    ],
+    "result": {
+      "item": "ra:desert_eagle",
+      "count": 1
+    }
+  }
+}

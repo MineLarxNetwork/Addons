@@ -1,0 +1,11 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "ram:steel_ingot"
+      },
+      "components": {
+        "minecraft:icon": "steel_ingot"
+      }
+    }
+}

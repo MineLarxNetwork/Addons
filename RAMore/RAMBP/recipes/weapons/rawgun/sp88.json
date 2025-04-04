@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:sp88"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBA",
+      "CX#"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:steel_ingot" },
+      "B": { "item": "ram:black_iron_ingot" },
+      "C": { "item": "ra:raw_radium" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ra:raw_radium" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:sp88",
+      "count": 1
+    }
+  }
+}

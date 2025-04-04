@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:citori_725"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BA#",
+      "  A"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components" },
+      "A": { "item": "mincraft:planks" },
+      "B": { "item": "ram:steel_ingot" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components" },
+      { "item": "ram:steel_ingot" }
+    ],
+    "result": {
+      "item": "ra:citori_725",
+      "count": 1
+    }
+  }
+}

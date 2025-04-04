@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+      "description": { "identifier": "ram:gun_components" },
+      "tags": [ "crafting_table" ],
+       "priority": -1,
+    "ingredients": [
+	    "minecraft:gold_ingot",
+	    {
+            "item": "ram:black_iron_ingot",
+            "count": 1
+        }
+	],
+    "unlock": [
+        { "item": "minecraft:gold_ingot" },
+        { "item": "ram:black_iron_ingot" }
+    ],
+    "result": { "item": "ram:gun_components" }
+    }
+}

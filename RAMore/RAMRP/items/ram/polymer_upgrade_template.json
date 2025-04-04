@@ -1,0 +1,11 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "ram:polymer_upgrade_template"
+      },
+      "components": {
+        "minecraft:icon": "polymer_upgrade_template"
+      }
+    }
+}

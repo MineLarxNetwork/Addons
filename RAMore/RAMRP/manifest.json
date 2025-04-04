@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§aRA §fMore §eBeta",
+		"description": "pack.description",
+		"uuid": "78abb97d-f62f-42b2-8a30-af503eae90e7",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["MineLarxNetwork"],
+		"license": "CC BY-SA-NC",
+		"generated_with": {
+			"MineLarxPackPower": ["0.5.7"]
+		}
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"description": "pack.resources.description",
+			"uuid": "5488cb39-6469-474b-b440-c2a22811f110",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "270c9c20-0ffb-4ff1-8151-f03199dd299d",
+			"version": [1, 0, 0]
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "当前Addon版本: 0.8 Beta-V"
+		},
+		{
+			"type": "label",
+			"text": "Beta/Dev版可能具有不确定性Bug"
+		},
+		{
+			"type": "label",
+			"text": "最低支持游戏版本: 1.20.0"
+		},
+		{
+			"type": "label",
+			"text": "Power By §l§aMine§gLarx§bNetwork§r"
+		}
+	]
+}

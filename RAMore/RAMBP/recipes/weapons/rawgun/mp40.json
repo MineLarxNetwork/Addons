@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:mp40"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AB#"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:black_iron_ingot" },
+      "B": { "item": "ram:steel_ingot" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:mp40",
+      "count": 1
+    }
+  }
+}

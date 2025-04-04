@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ra:thunder_gun"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAB",
+      "XX#"
+    ],
+    "key": {
+      "#": { "item": "ram:gun_components_unlock" },
+      "A": { "item": "ram:black_iron_ingot" },
+      "B": { "item": "ram:steel_ingot" },
+      "X": { "item": "ram:blueprint" }
+    },
+    "unlock": [
+      { "item": "ram:gun_components_unlock" },
+      { "item": "ram:black_iron_ingot" },
+      { "item": "ram:steel_ingot" },
+      { "item": "ram:blueprint" }
+    ],
+    "result": {
+      "item": "ra:thunder_gun",
+      "count": 1
+    }
+  }
+}

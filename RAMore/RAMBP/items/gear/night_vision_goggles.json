@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ra:night_vision_goggles",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:foil": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": { "value": "§a夜视仪§f" },
+			"minecraft:icon": { "texture": "night_vision_goggles" },
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"dispensable": true
+			}
+		}
+	}
+}
