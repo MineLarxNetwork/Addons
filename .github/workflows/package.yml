@@ -2,7 +2,12 @@ name: Build Addons
 
 on:
   push:
-    branches: [ master ]
+    paths:
+      - '**/version.txt'
+      - '**/*.tga'
+      - '**/*.json'
+      - '**/*.png'
+      - '**/*.lang'
   pull_request:
     branches: [ master ]
 
@@ -44,7 +49,7 @@ jobs:
               
               # 打包文件夹内容
               cd "$dir"
-              zip -r "../artifacts/${dir}_${VERSION}.mcaddon" .
+              zip -r "../artifacts/${dir}_v${VERSION}.mcaddon" .
               cd ..
             fi
           done
