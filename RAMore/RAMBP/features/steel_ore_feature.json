@@ -1,5 +1,5 @@
 {
-	"format_version": "1.17.0",
+	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "ram:steel_ore_feature"
@@ -8,11 +8,15 @@
 		"replace_rules": [
 			{
 				"places_block": "ram:steel_ore",
-				"may_replace": ["minecraft:stone"]
+				"may_replace": [
+				    "minecraft:stone"
+				]
 			},
 			{
 				"places_block": "ram:deepslate_steel_ore",
-				"may_replace": ["minecraft:deepslate"]
+				"may_replace": [
+				    "minecraft:deepslate"
+				]
 			}
 		]
 	}

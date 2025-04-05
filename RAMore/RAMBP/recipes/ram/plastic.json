@@ -1,10 +1,13 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.17",
 	"minecraft:recipe_furnace": {
 		"description": {
 			"identifier": "ram:plastic"
 		},
-		"tags": ["furnace", "blast_furnace"],
+		"tags": [
+		    "furnace",
+		    "blast_furnace"
+		],
 		"input": "minecraft:slime_ball",
 		"output": {
 			"item": "ram:plastic",

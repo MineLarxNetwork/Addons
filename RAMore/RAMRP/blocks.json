@@ -1,18 +1,19 @@
 {
-  "ram:black_iron_ore": {
-    "textures": "black_iron_ore",
-    "sound": "stone"
-  },
-  "ram:deepslate_black_iron_ore": {
-    "textures": "deepslate_black_iron_ore",
-    "sound": "stone"
-  },
-  "ram:steel_ore": {
-    "textures": "steel_ore",
-    "sound": "stone"
-  },
-  "ram:deepslate_steel_ore": {
-    "textures": "deepslate_steel_ore",
-    "sound": "stone"
-  }
+    "format_version": "1.20", 
+    "ram:black_iron_ore": {
+        "textures": "black_iron_ore",
+        "sound": "stone"
+    },
+    "ram:deepslate_black_iron_ore": {
+        "textures": "deepslate_black_iron_ore",
+        "sound": "stone"
+    },
+    "ram:steel_ore": {
+        "textures": "steel_ore",
+        "sound": "stone"
+    },
+    "ram:deepslate_steel_ore": {
+        "textures": "deepslate_steel_ore",
+        "sound": "stone"
+    }
 }

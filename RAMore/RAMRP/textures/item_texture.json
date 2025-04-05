@@ -2,18 +2,44 @@
 	"resource_pack_name": "RAMore",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"raw_black_iron": { "textures": [ "textures/items/raw_black_iron" ] },
-		"raw_steel": { "textures": [ "textures/items/raw_steel" ] },
-		"black_iron_ingot": { "textures": [ "textures/items/black_iron_ingot" ] },
-		"steel_ingot": { "textures": [ "textures/items/steel_ingot" ] },
-		"spring": { "textures": [ "textures/items/spring" ] },
-		"polymer": { "textures": [ "textures/items/polymer" ] },
-		"plastic": { "textures": [ "textures/items/plastic" ] },
-		"gun_components": { "textures": [ "textures/items/gun_components" ] },
-		"gun_components_unlock": { "textures": [ "textures/items/gun_components_unlock" ] },
-		"blueprint": { "textures": [ "textures/items/blueprint" ] },
-		"golden_upgrade_template": { "textures": [ "textures/items/golden_upgrade_template" ] },
-		"netherite_upgrade_template": { "textures": [ "textures/items/netherite_upgrade_template" ] },
-		"polymer_upgrade_template": { "textures": [ "textures/items/polymer_upgrade_template" ] }
+		"raw_black_iron": {
+		    "textures": "textures/items/raw_black_iron"
+	    },
+		"raw_steel": {
+		    "textures": "textures/items/raw_steel"
+		},
+		"black_iron_ingot": {
+		    "textures": "textures/items/black_iron_ingot"
+		},
+		"steel_ingot": {
+		    "textures": "textures/items/steel_ingot"
+		},
+		"spring": {
+		    "textures": "textures/items/spring"
+		},
+		"polymer": {
+		    "textures": "textures/items/polymer"
+		},
+		"plastic": {
+		    "textures": "textures/items/plastic"
+		},
+		"gun_components": {
+		    "textures": "textures/items/gun_components"
+		},
+		"gun_components_unlock": {
+		    "textures": "textures/items/gun_components_unlock"
+		},
+		"blueprint": {
+		    "textures": "textures/items/blueprint"
+		},
+		"golden_upgrade_template": {
+		    "textures": "textures/items/golden_upgrade_template"
+		},
+		"netherite_upgrade_template": {
+		    "textures": "textures/items/netherite_upgrade_template"
+		},
+		"polymer_upgrade_template": {
+		    "textures": "textures/items/polymer_upgrade_template"
+		}
 	}
 }

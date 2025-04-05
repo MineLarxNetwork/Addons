@@ -41,8 +41,8 @@ entity.ra:grenade.projectile_landed.name=烫手山芋
 entity.ra:grenade.projectile.name=投掷物
 entity.ra:m79_grenade.projectile.name=爆炸
 entity.ra:bullet.projectile.name=子弹
-entity.ra:thunder_gun.projectile.name=压缩空气
-entity.ra:thunder_gun.knockback.name=压缩空气
+entity.ra:thunder_gun.projectile.name=镭射
+entity.ra:thunder_gun.knockback.name=镭射
 entity.villager.armor=枪械师
 entity.villager.gun=枪械师
 entity.ra:pumpkin_bomb.name=a §6南瓜炸弹§f
@@ -80,8 +80,8 @@ item.spawn_egg.entity.ra:zombie_limb.name=变异僵尸(肢体)
 item.spawn_egg.entity.ra:player_limb_1.name=变异僵尸(脊柱)
 
 ## 物品
-item.ra:thunder_gun.name=射线枪
-item.ra:thunder_gun_clip.name=[弹匣] 射线枪
+item.ra:thunder_gun.name=镭射枪
+item.ra:thunder_gun_clip.name=[弹匣] 镭射枪
 item.ra:awm.name=AWM
 item.ra:awm_clip.name=[弹匣] AWM
 item.ra:citori_725.name=勃朗宁奇托丽 725

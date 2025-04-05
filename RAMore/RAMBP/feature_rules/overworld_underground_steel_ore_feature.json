@@ -29,18 +29,24 @@
 			"coordinate_eval_order": "zyx",
 			"x": {
 				"distribution": "triangle",
-				"extent": [0, 16]
+				"extent": [
+				    0,
+				    16
+				]
 			},
 			"y": {
 				"distribution": "triangle",
 				"extent": [
-					-60,
+					-59,
 					12
 				]
 			},
 			"z": {
 				"distribution": "triangle",
-				"extent": [0, 16]
+				"extent": [
+				    0,
+				    16
+				]
 			}
 		}
 	}

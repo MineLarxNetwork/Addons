@@ -80,8 +80,8 @@ item.spawn_egg.entity.ra:zombie_limb.name=變異殭屍（肢體）
 item.spawn_egg.entity.ra:player_limb_1.name=變異殭屍（脊柱）
 
 ## 物品
-item.ra:thunder_gun.name=射線槍
-item.ra:thunder_gun_clip.name=[彈匣] 射線槍
+item.ra:thunder_gun.name=鐳射槍
+item.ra:thunder_gun_clip.name=[彈匣] 鐳射槍
 item.ra:awm.name=AWM
 item.ra:awm_clip.name=[彈匣] AWM
 item.ra:citori_725.name=勃朗寧奇托麗 725

@@ -1,18 +1,15 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "§l§aRA §fMore §eBeta",
+		"name": "§l§aRA §fMore §aLTS",
 		"description": "pack.description",
 		"uuid": "78abb97d-f62f-42b2-8a30-af503eae90e7",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 20, 0]
 	},
 	"metadata": {
-		"authors": ["MineLarxNetwork"],
-		"license": "CC BY-SA-NC",
-		"generated_with": {
-			"MineLarxPackPower": ["0.5.7"]
-		}
+		"authors": ["MineLarx"],
+		"license": "CC BY-SA-NC"
 	},
 	"modules": [
 		{
@@ -31,11 +28,7 @@
 	"settings": [
 		{
 			"type": "label",
-			"text": "当前Addon版本: 0.8 Beta-V"
-		},
-		{
-			"type": "label",
-			"text": "Beta/Dev版可能具有不确定性Bug"
+			"text": "当前Addon版本: V1.1.0 LTS"
 		},
 		{
 			"type": "label",
@@ -43,7 +36,7 @@
 		},
 		{
 			"type": "label",
-			"text": "Power By §l§aMine§gLarx§bNetwork§r"
+			"text": "Power By §l§aMine§gLarx§r"
 		}
 	]
 }

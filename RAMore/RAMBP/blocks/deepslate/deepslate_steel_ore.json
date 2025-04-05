@@ -1,37 +1,28 @@
 {
-"format_version": "1.20.0",
-  "minecraft:block": {
-    "description": {
-      "identifier": "ram:deepslate_steel_ore",
-      "is_experimental": false,
-	"menu_category": {
-		"category": "nature",
-		"group": "itemGroup.name.ore"
-	}
-    },
-    "components": {
-      "minecraft:collision_box": true,
-	"minecraft:destructible_by_mining": { "seconds_to_destroy": 1.25 },
-      "minecraft:destructible_by_explosion": { "explosion_resistance": 6 },
-      "minecraft:material_instances": {
-	      "*": {
-	            "texture": "deepslate_steel_ore"
-	            }
-	},
-      "minecraft:map_color": "#a8ff0f",
-      "minecraft:on_player_destroyed": {
-        "event": "ram:xp_reward"
-      },
-      "minecraft:loot": "loot_tables/blocks/steel_ore.json"
-    },
-    "events": {
-      "ram:xp_reward": {
-        "run_command": {
-          "command": [
-            "structure load ore_xp_reward ~~~"
-          ]
+    "format_version": "1.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ram:deepslate_steel_ore",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.ore"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "deepslate_steel_ore"
+                }
+            },
+            "minecraft:loot": "loot_tables/blocks/steel_ore.json",
+            "minecraft:display_name": "深层钢矿",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.5
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:minecraft:iron_tier_destructible": {},
+            "tag:minecraft:diamond_tier_destructible": {}
         }
-      }
     }
-  }
 }

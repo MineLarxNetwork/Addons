@@ -1,24 +1,26 @@
 {
-  "format_version": "1.12",
-  "minecraft:recipe_shaped": {
-    "description": {
-      "identifier": "ram:spring"
-    },
-    "tags": [ "crafting_table" ],
+    "format_version": "1.17",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ram:spring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
     "pattern": [
-      "#",
-      "#",
-      "#"
+        "#",
+        "#",
+        "#"
     ],
     "key": {
-      "#": { "item": "minecraft:iron_nugget" }
+        "#": { "item": "minecraft:iron_nugget" }
     },
     "unlock": [
-      { "item": "minecraft:iron_nugget" }
+        { "item": "minecraft:iron_nugget" }
     ],
     "result": {
-      "item": "ram:spring",
-      "count": 6
+        "item": "ram:spring",
+        "count": 6
     }
   }
 }
