@@ -47,7 +47,7 @@ jobs:
               
               # 打包文件夹内容
               cd "$dir" || exit 1
-              zip -r "../artifacts/${dir}_${VERSION}.mcaddon" .
+              zip -r "../artifacts/${dir}_v${VERSION}.mcaddon" .
               cd .. || exit 1
             fi
           done
