@@ -16,45 +16,42 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      # 检出代码
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # 获取前一次提交以比较变动
+          fetch-depth: 2
 
-      # 安装 zip 工具
       - name: Install zip
         run: sudo apt-get install -y zip
 
-      # 获取变动的文件夹
       - name: Get changed directories
         id: changed-dirs
         run: |
-          # 获取变动的文件夹列表（排除根目录下的文件）
           CHANGED_DIRS=$(git diff --name-only HEAD^ HEAD | grep '/' | cut -d'/' -f1 | sort -u)
           echo "dirs=$CHANGED_DIRS" >> $GITHUB_OUTPUT
 
-      # 打包每个变动的文件夹
       - name: Build and package addons
         if: steps.changed-dirs.outputs.dirs != ''
         run: |
-          IFS=$'\n'  # 设置字段分隔符为换行符
-          for dir in ${{ steps.changed-dirs.outputs.dirs }}; do
+          # 将输出转换为数组
+          mapfile -t DIRS < <(echo "${{ steps.changed-dirs.outputs.dirs }}")
+          
+          # 遍历每个目录
+          for dir in "${DIRS[@]}"; do
             if [ -d "$dir" ] && [ -f "$dir/version.txt" ]; then
-              # 读取版本号
-              VERSION=$(cat "$dir/version.txt" | tr -d '[:space:]')
+              # 读取版本号并去除空白字符
+              VERSION=$(tr -d '[:space:]' < "$dir/version.txt")
               
               # 创建输出目录
               mkdir -p artifacts
               
               # 打包文件夹内容
-              cd "$dir"
-              zip -r "../artifacts/${dir}_v${VERSION}.mcaddon" .
-              cd ..
+              cd "$dir" || exit 1
+              zip -r "../artifacts/${dir}_${VERSION}.mcaddon" .
+              cd .. || exit 1
             fi
           done
 
-      # 上传 Artifacts
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         if: steps.changed-dirs.outputs.dirs != ''
