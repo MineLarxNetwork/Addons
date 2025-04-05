@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21",
+    "format_version": "1.20",
     "minecraft:item": {
         "description": {
             "identifier": "mcdonald:fries",
@@ -25,7 +25,10 @@
                     "minecraft:is_meat",
                     "minecraft:is_cooked"
                 ]
-            }
+            },
+            "tag:minecraft:is_food": {}, // Support Before 1.20.50
+            "tag:minecraft:is_meat": {}, // Support Before 1.20.50
+            "tag:minecraft:is_cooked": {} // Support Before 1.20.50
         }
     }
 }
