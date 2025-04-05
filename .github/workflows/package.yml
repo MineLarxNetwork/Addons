@@ -10,16 +10,15 @@ on:
       - '**/*.lang'
 
 jobs:
-  package:
+  detect-changes:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        addon: ${{ fromJSON(needs.detect-changes.outputs.changed-addons) }}
+    outputs:
+      changed-addons: ${{ steps.detect.outputs.changed-addons }}
     steps:
       - uses: actions/checkout@v4
         
       - name: Detect changed addons
-        id: detect-changes
+        id: detect
         run: |
           # 获取所有更改的文件路径
           changed_files=$(git diff --name-only HEAD^ HEAD)
@@ -46,9 +45,18 @@ jobs:
           fi
           
           echo "Changed addons: ${changed_addons[@]}"
-          echo "::set-output name=changed-addons::$(jq -nc '$ARGS.positional' --args "${changed_addons[@]}")"
+          echo "changed-addons=$(jq -nc '$ARGS.positional' --args "${changed_addons[@]}")" >> $GITHUB_OUTPUT
 
-      - name: Package addons
+  package:
+    needs: detect-changes
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        addon: ${{ fromJSON(needs.detect-changes.outputs.changed-addons) }}
+    steps:
+      - uses: actions/checkout@v4
+        
+      - name: Package addon
         run: |
           addon_dir="Addons/${{ matrix.addon }}"
           version=$(cat "$addon_dir/version.txt")
