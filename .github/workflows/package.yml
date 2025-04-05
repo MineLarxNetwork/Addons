@@ -4,49 +4,79 @@ on:
   push:
     paths:
       - '**/version.txt'
-      - '**/*.json'
       - '**/*.tga'
+      - '**/*.json'
       - '**/*.png'
-      # 监听文件类型
+      - '**/*.lang'
 
 jobs:
   package:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        addon: ${{ fromJSON(needs.detect-changes.outputs.changed-addons) }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Git
+      - uses: actions/checkout@v4
+        
+      - name: Detect changed addons
+        id: detect-changes
         run: |
-          git config --global --add safe.directory /github/workspace
-
-      - name: Get changed directories
-        id: changed_dirs
-        run: |
-          # 获取变动的目录
-          git diff --name-only ${{ github.event.before }} HEAD | grep -oP '^[^/]+' | sort -u > changed_dirs.txt
-          cat changed_dirs.txt
-
-      - name: Install zip
-        run: sudo apt-get install -y zip
-
-      - name: Package changed directories
-        run: |
-          while IFS= read -r dir; do
-            if [ -d "$dir" ] && [ -f "$dir/version.txt" ]; then
-              version=$(cat "$dir/version.txt")
-              zip -r "${dir}_v${version}.mcaddon" "$dir"
-              echo "Packaged ${dir}_v${version}.mcaddon"
-            else
-              echo "Skipping $dir: missing version.txt or not a directory"
+          # 获取所有更改的文件路径
+          changed_files=$(git diff --name-only HEAD^ HEAD)
+          
+          # 找出包含 version.txt 的目录
+          changed_addons=()
+          for file in $changed_files; do
+            dir=$(dirname "$file")
+            # 确保目录下有 version.txt
+            if [[ -f "$dir/version.txt" ]]; then
+              # 获取相对于 Addons 目录的路径
+              rel_dir=${dir#Addons/}
+              rel_dir=${rel_dir%%/*}
+              if [[ ! " ${changed_addons[@]} " =~ " ${rel_dir} " ]]; then
+                changed_addons+=("$rel_dir")
+              fi
             fi
-          done < changed_dirs.txt
+          done
+          
+          # 如果没有检测到变更，则使用所有包含 version.txt 的目录
+          if [ ${#changed_addons[@]} -eq 0 ]; then
+            echo "No changed addons detected, packaging all addons"
+            changed_addons=($(find Addons -name "version.txt" -exec dirname {} \; | xargs -n1 basename))
+          fi
+          
+          echo "Changed addons: ${changed_addons[@]}"
+          echo "::set-output name=changed-addons::$(jq -nc '$ARGS.positional' --args "${changed_addons[@]}")"
 
-      - name: Upload Artifact
+      - name: Package addons
+        run: |
+          addon_dir="Addons/${{ matrix.addon }}"
+          version=$(cat "$addon_dir/version.txt")
+          output_name="${{ matrix.addon }}_$version.mcaddon"
+          
+          echo "Packaging $addon_dir as $output_name"
+          
+          # 创建临时目录
+          mkdir -p temp_package
+          
+          # 复制所有文件到临时目录
+          cp -r "$addon_dir"/* temp_package/
+          
+          # 创建 ZIP 包
+          cd temp_package
+          zip -r "../$output_name" .
+          cd ..
+          
+          # 清理临时目录
+          rm -rf temp_package
+          
+          # 创建 artifacts 目录
+          mkdir -p artifacts
+          mv "$output_name" artifacts/
+
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Addons
-          path: '*.mcaddon'
-          if-no-files-found: warn
+          name: ${{ matrix.addon }}
+          path: artifacts/${{ matrix.addon }}_*.mcaddon
+          if-no-files-found: error
